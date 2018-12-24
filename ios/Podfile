@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+pod 'TouchID', :path => "../node_modules/react-native-touch-id"
+# Add these to your Podfile
+pod 'React', :path => '../node_modules/react-native'
+pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+target 'touch_id' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for touch_id
+
+  #target 'touch_id-tvOSTests' do
+   # inherit! :search_paths
+    # Pods for testing
+  #end
+
+ # target 'touch_idTests' do
+  #  inherit! :search_paths
+    # Pods for testing
+  #end
+
+end
+
+#target 'touch_id-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for touch_id-tvOS
+
+  #target 'touch_id-tvOSTests' do
+   # inherit! :search_paths
+    # Pods for testing
+  #end
+
+#end
